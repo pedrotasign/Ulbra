@@ -1,0 +1,165 @@
+.img{
+    width: 15%;
+    height: 15%;
+    padding-left:20px;
+    float: left;
+    margin-left: 100px;
+}
+
+.Text{
+    font-family: arial;
+    color: black;
+    font-size: 150%;
+    width:80%;
+}
+
+
+.BG{
+    color: rgb(90, 153, 31);
+    font-family: arial;
+    font-size: 150%;
+    width: 70%;
+    float: center;
+    margin-left: 150px;
+    margin-top: 10px;
+
+}
+
+h1 {
+    background-color:  rgb(90, 153, 31); 
+    font-family: arial;
+    font-size: 250%;
+    border:10px solid rgb(90, 153, 31);
+    text-align: center;
+    margin-left: 100px;
+    margin-right:100px;
+    border-radius: 10px;
+}
+
+.Subtitle{
+    font-size: 200%;
+    font-family: arial;
+    float: left;
+    margin-left: 100px;
+    width: 80%;
+    padding-top: 5%;
+}
+
+.Line {
+    color: rgb(90, 153, 31);
+    background-color: rgb(90, 153, 31);
+    height: 1px;
+    margin-left: 200px;
+    margin-right: 10px;
+    margin-top: -15px;    
+}
+
+.Objtext{
+    font-size: 100%;
+    font-family: arial;
+    float: left;
+    margin-left: 100px;
+    width: 80%;
+    padding-top: 1%;
+    color: rgb(74, 74, 75);        
+}
+
+.Formtext{
+    font-size: 120%;
+    color: rgb(74, 74, 75);
+    margin-left: 100px;
+    padding-top: 60px;
+
+    margin-right: 10px;
+    font-family: Arial;
+}
+
+.Normaltext {
+    font-size: 100%;
+    color: rgb(74, 74, 75);
+    margin-left: 100px;
+    margin-right: 10px;
+    font-family: arial;
+    margin-top: -10px;
+}
+
+.Habilsub{
+    color: black;
+    font-family: arial;
+    margin-left: 100px;
+    padding-top: 50px;
+    font-size: 150%;
+
+}
+
+.Habilline{
+    border:1px solid rgb(90, 153, 31);
+    border-radius: 3px;
+    margin-left:25px;
+    margin-right: 80px;    
+    width: 80%;
+}
+
+.Flexbox{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.flex-stretch{
+    align-items: stretch;
+}
+
+.box{
+    width: 100%;
+}
+
+.Vl {
+    border-left: 5px solid rgb(90, 153, 31);
+    border-radius: 3px;
+    height: 800px;
+    
+}
+    
+.flex-ball{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+}
+
+.ball{
+    width:0px;
+    border:10px solid #77bd31;
+    border-radius: 50em;
+    float:center;
+    height: 0px;
+    margin-right:10px;
+}
+.space{
+    width: 0%;
+}
+
+.titledesc{
+    font-family:arial;
+    font-size:100%;
+    margin-left:100px;
+    width: 30%;
+  
+}
+
+.Objtext2{
+    font-size: 100%;
+    font-family: arial;
+    width: 90%; 
+    color: rgb(74, 74, 75); 
+    margin-left: 15%;  
+    margin-right: 100px;     
+}
+
+.Subtitle2{
+    font-size: 100%;
+    font-family: arial;
+    margin-left: 100px;
+    width: 80%;
+    padding-top: 5%;
+}
