@@ -1,21 +1,25 @@
-#include <iostream> 
+#include <iostream>; 
 #include <stdio.h>;
+#include <locale.h>;
 int main ()
 {
-	int codigofuncionario, quantidadehora, valorhora, Salario;
+	setlocale(LC_ALL, "Portuguese");
+	int n_funcionario;
+	float valor, horas, salario;
+	
 	printf ("Informe o codigo do funcionario? ");	
-	scanf("%d",&codigofuncionario);
+	scanf("%i",& n_funcionario);
 	printf("qual o valor de hora trabalhada? ");
-	scanf("%d",&valorhora);
-	printf("qual a quantia de horas trabalhads? ");
-	scanf("%d",&quantidadehora);
-	Salario= (quantidadehora*valorhora);
+	scanf("%f",& valor);
+	printf("qual a quantia de horas trabalhadas? ");
+	scanf("%f",& horas);
+	salario= valor*horas;
 	
 	
 	
-	printf("Funcionario e= %d\n",codigofuncionario);
+	printf("codigo do funcionario é = %i\n", n_funcionario);
 		
-	printf("o valor do salario e= %d\n",Salario);
+	printf("o valor do salario e= %.2f",salario);
 	
 	
 }
