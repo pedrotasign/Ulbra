@@ -1,0 +1,137 @@
+.Configurações {
+    font-family: arial;
+    margin-left: 80px;
+    width: 90%;
+}
+
+.Cabeçalho {
+    background-color: #FF7D55;
+    height: 150px;
+    text-align: center;
+    color: snow;
+    padding-top: 20px;
+    font-size: 100px;
+    font-family: fantasy;
+}
+
+.Flex-box {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.News {
+    width: 63%;
+    /*border: 2px solid black;*/
+    text-align: justify;
+}
+
+.Linknews {
+    color: #FD724F;
+}
+
+.Imagensnoticias {
+    width: 150px;
+    height: 140px;
+    min-width: 250px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-top: 10px;
+}
+
+.Newstitle {
+    color: #FD724F;
+    padding-left: 18px;
+    font-size: 21px;
+    padding-bottom: 15px;
+    
+}
+
+.Newstext {
+    font-size: 25px;
+    padding-left: 20px;
+    min-width: 50%;
+    margin-right: 35px;
+}
+
+.verticalline {
+    border-left: 2px solid rgb(155, 155, 155);
+    height: 650px;
+}
+
+.Editors{
+    width: 30%;
+    font-size: 18px;
+}
+
+.Editorslink {
+    color: black;
+}
+
+.Editorsimage {
+    height: 150px;
+    border-radius: 5em;
+    width: 43%;
+}
+
+.Editorstext {
+    font-size: 19px;
+    padding-bottom: 10px;
+}
+
+
+.Editorsname {
+    color: #FD724F;
+    font-size: 20px;
+}
+
+.Rodapé {
+    background-color: #FD724F;
+    justify-content: space-around;
+}
+
+.Textorodapé {
+    font-size: 40px;
+    text-align: center;
+    color: snow;
+    font-family: fantasy;
+    padding-top: 20px;
+}
+
+.Texto2rodapé {
+    text-align: left;
+    width: 15%;
+    padding-right: 300px;
+    font-size: 10px;
+    text-align: justify;
+    padding-top: 25px;
+    color: rgb(219, 215, 215);
+}
+
+.Rodapételefones {
+    /*width: 20%;*/
+    text-align: left;
+    padding-right: 120px;
+    padding-top: 10px;
+    color: snow;
+}
+
+.Whatsapp {
+    width: 30px;
+    height: 30px;
+    padding: 7px;
+}
+
+.Rodapéredes {
+    /*width: 20%;*/
+    text-align: right;
+    
+}
+
+.Rodapélinks {
+    width: 40px;
+    height: 40px;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
