@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: arial;
+  font-size: 21px;
+  line-height: 1.58;
+  letter-spacing: -.003em;
+}
+  
+header {
+  background-color: rgb(241, 123, 45);
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+}
+  
+header h1 {
+  margin: 0;
+}
+  
+section {
+  margin: 1rem 0;
+}
+  
+  
+section .banner {
+  background-image: url(../Imagens/banner.jpg);
+  background-size: cover;
+  height: 20rem;
+}
+  
+section h1 {
+  line-height: 1.04;
+  letter-spacing: -.015em;
+  color: snow;
+  text-align: center;
+}
+  
+section h2 {
+  color: snow;
+  font-size: 28px;
+  line-height: 1.22;
+  letter-spacing: -.012em;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+  
+section p {
+  margin-top: 10px;
+}
+  
+a {
+  color: tomato;
+  text-decoration: none;
+}
+  
+a:hover {
+  text-decoration: underline;
+}
+
+#conteudo{
+  padding: 40px;
+  text-align: center justify;
+}
