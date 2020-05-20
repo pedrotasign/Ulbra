@@ -1,0 +1,30 @@
+h3 {
+    color: orangered;
+}
+
+.img1 {
+    width: 190px;
+    height: 140px;
+}
+
+.img2 {
+    width: 170px;
+    height: 130px;
+    margin-top: 15px;
+}
+
+h5 {
+    color: rgb(246, 112, 64);
+} 
+
+article {
+    font-size: 18px;
+}
+
+.Flex-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+

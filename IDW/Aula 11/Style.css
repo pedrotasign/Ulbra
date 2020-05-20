@@ -1,0 +1,38 @@
+body {
+    font-family: Arial;
+   
+}
+
+.caixas {
+    border: 2px solid black;
+    width: 45%;
+    height: auto;
+}
+
+.flexBox {
+    display: flex;
+    justify-content: start;
+}
+
+div input {
+    margin: 0px 10px 5px 15px;
+    padding-top: 0,5%;
+}
+
+div label {
+    margin-right: 15px;
+    width: 130%;
+}
+
+header {
+    position: absolute;
+    padding-top: 6px;
+    padding-left: 20px;
+    min-width: 5%;
+    background-color: #ffffff;
+}
+
+select {
+    margin-left: 15px;
+    margin-bottom: 4px;
+}
