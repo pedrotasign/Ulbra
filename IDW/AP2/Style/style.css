@@ -58,7 +58,14 @@ a:hover {
   text-decoration: underline;
 }
 
-#conteudo{
-  padding: 40px;
-  text-align: center justify;
+#conteudoLeft{
+  text-align: justify;
+  width: 500px;
+  float: left;
+}
+
+#conteudoright{
+  text-align: justify;
+  width: 500px;
+  float: right;
 }
