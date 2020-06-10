@@ -1,0 +1,13 @@
+body {
+    width: 100px;
+    text-align: center;
+    
+}
+
+.flexBox {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+
+}
