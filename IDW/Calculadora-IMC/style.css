@@ -1,0 +1,9 @@
+div {
+    text-align: center;
+    margin: 100px;
+}
+
+.backGround {
+    background: linear-gradient(to right, #999999, #dd720d);
+}
+

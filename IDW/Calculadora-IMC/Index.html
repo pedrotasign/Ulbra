@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <title>IMC</title>
+</head>
+
+<body class="backGround">
+    <div class="container">
+        <form name="imcform">
+            <p>Informe a altura, ex: 1.90</p>
+            <input type="number" name="altura" placeholder="Altura" step="0.01" required><br><br>
+            <p>Informe o peso, ex: 85</p>
+            <input type="number" name="peso" placeholder="Peso(kg)" step="0.01" required><br><br>
+            <input type="number" name="imc" placeholder="IMC" step="0.1" disabled><br><br>
+            <input type="button" value="Calcular" onclick="calcularIMC();">
+        </form>
+    </div>
+  </body>
+</html>
