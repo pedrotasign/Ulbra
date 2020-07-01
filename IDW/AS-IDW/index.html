@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>AS</title>
+  <link rel="stylesheet" href="Style/style.css">
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img src="Style/LOGO-HEADER-5.png" alt="Logo" width="90%" height="25%">
+    </div>
+  </header>
+  
+  <div id="menu">
+    <nav>
+      <button class="openbtn" onclick="openNav()" >☰ Menu</button>
+      <div id="mySidepanel" class="sidepanel">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
+          <ul>
+            <li><a href="#" onclick="onClick('home')">EMPRESA</a></li>
+            <li><a href="#/page1" onclick="onClick('template1')">PRODUTOS</a></li>
+            <li><a href="#/page2" onclick="onClick('template2')">ESTRUTURA</a></li>
+        </ul>
+      </div>
+     </nav> 
+  </div>
+  
+  <div id="view"></div>
+  
+  <script type="text/html" id="home">
+    <section>
+      <div>
+        <h1>A EMPRESA</h1>
+        <p>A Stark Alimentos surgiu da ideia de dois amigos de juventude onde ambos procuravam novos 
+          desafios e oportunidades. De um lado estava o conhecimento técnico para produzir, 
+          elaborar e fornecer produtos hortícolas na linha de folhosas, e de outro lado a visão 
+          estratégica e administrativa na introdução destes produtos no mercado.
+        </p>
+        <p>Hoje a atividade econômica principal é o comércio atacadista de verduras e hortaliças frescas. 
+          A capacidade de produção em regime hidropônico ininterrupto é de 100 mil plantas por mês 
+          aproximadamente, com plantio diário. A empresa é especialista na linha de verduras diferenciadas
+          (Salanova), além de rúcula, salsinha, agrião, cebolinha.
+        </p>
+        <p>A área de cobertura abrange todo vale do Itajaí, norte catarinense e litoral sendo que todo
+          o transporte é realizado com frota própria, rápida e eficiente, garantindo que o alimento 
+          chegue sempre fresquinho aos clientes.
+        </p>
+          <p><b>Missão: </b> Atender as expectativas de nossos clientes quanto às necessidades de produtos 
+            hortícolas diferenciados e com qualidade acima da media a um custo justo e rentável.
+        </p>
+        <p><b>Visão:</b>  Ser reconhecidos como empresa séria e comprometida com as expectativas dos
+          clientes e consumidores finais, respeitando os princípios de segurança alimentar.
+        </p>    
+      </div>
+    </section>
+  </script>
+    
+  <script type="text/html" id="template1">
+    <div class="container segundaTela">
+      <h1>PRODUTOS</h1>
+      <div class="row">
+        <img class= "col-md-4" src="Style/Alface-batavia-verde.jpg" alt="Produto1" width="30%">
+        <img class= "col-md-4" src="Style/Alface-crespa-roxa.jpg" alt="Produto2" width="30%">
+        <img class= "col-md-4" src="Style/Alface-crespa-verde.jpg" alt="Produto3" width="30%">
+      </div>
+      <div>
+        <img src="Style/Alface-lisa-roxa.jpg" alt="Produto4" width="30%">
+        <img src="Style/Alface-lisa-verde.jpg" alt="Produto5" width="30%">
+        <img src="Style/Alface-mimosa-roxa.jpg" alt="Produto6" width="30%">
+      </div>
+      <div>
+        <img src="Style/Produto-agriao2.jpg" alt="Produto7" width="20%">
+        <img src="Style/Produto-cebolinha4.jpg" alt="Produt8o" width="20%">
+        <img src="Style/Produto-rucula2.jpg" alt="Produto9" width="20%">
+        <img src="Style/Produto-salsinha2.jpg" alt="Produto10"width="20%">
+      </div>
+    </div>
+  </script>
+
+
+  
+  <script type="text/html" id="template2">
+    <div class="terceiraTela">
+      <img src="Style/estufas-10c.jpg" alt="">
+      <article>
+        A Stark Alimentos hoje conta com toda a estrutura necessária para a produção de hortaliças folhosas 
+        diferenciadas e com qualidade superior.
+        São aproximadamente 5 mil metros quadrados de Área Protegida, com os equipamentos mais modernos que o 
+        mercado pode oferecer.
+        Estas áreas protegidas contam com dispositivos que permitem a menor variação de temperatura possível, 
+        algo imprescindível para obtenção de um produto excelente e padronizado.
+        Além das estruturas de cultivo protegido, a Stark conta com pessoal treinado tanto na área Técnica 
+        como na área operacional e administrativa.
+        Nossa equipe recebe constantemente instruções e novidades no que se refere ao manuseio, transporte e higiene.
+        Desde o momento da semeadura, até a colheita, todas as operações de manejo são realizadas com os utensílios 
+        necessários para a boa higiene, como luva, toucas, calçados apropriados  e material esterilizante.
+        Nossos fornecedores são selecionados e seguem os conceitos de qualidade que buscamos oferecer aos nossos 
+        clientes.
+        E nossa maior parceria concentra-se com a empresa Rijks Zwann, da Holanda.
+        A Rijks Zwann, fornece diretamente do exterior, as sementes de sua Linha de Alfaces Salanova (veja no Link AQUI)
+        São sementes que aliados a boa pratica de produção, resultam num produto diferenciado e saboroso.
+      </article>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="Style/estufas-01.jpg" alt="img1" width="20%">
+            <img src="Style/estufas-02B.jpg" alt="img2"width="20%">
+            <img src="Style/estufas-03.jpg" alt="img3"width="20%">
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </script>
+   
+
+
+  
+  <footer>
+    <img src="Style/footer.png" alt="Logo" width="45%" height="10%">
+  </footer>
+
+  
+  
+  <script type="text/javascript" src="script.js"></script>
+  
+</body>
+
+</html>
