@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style/style.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    
+    <title>EPIS</title>
+</head>
+
+<body class="container">
+    <header>CONTROLE DE EPIS</header>
+
+    <!-- Menu -->
+    <div id="menu">
+            <div>
+                <button class="btn btn-outline-warning"><a href="#" onclick="onClick('home')">Vencimentos</a></button>
+                <button class="btn btn-outline-warning"><a href="#/page1" onclick="onClick('template1')">EPIS</a></button>
+                <button class="btn btn-outline-warning"><a href="#/page2" onclick="onClick('template2')">Funcionários</a></button>
+            </div>   
+    </div>
+
+  
+    <!-- Body screen -->
+    <div class="content" id="view"></div>
+  
+  
+
+    <!-- Vencimentos  -->
+    <script type="text/html" id="home">
+        <div id="myDIV" class="header">
+            <input type="text" id="myInput" placeholder="Title...">
+            <span onclick="newElement()" class="addBtn">Add</span>
+          </div>
+          
+          <ul id="myUL">
+            
+            
+            
+          </ul>
+        </div>
+    </script>
+
+
+    <!-- EPIS  -->
+    <script type="text/html" id="template1">
+        <div class="flexBox">
+            <div>
+                <img src="Style/mascara.jpeg" alt="1" >
+            </div>
+            <div>
+                <img src="Style/luva.jpeg" alt="2">
+            </div>
+            <div>
+                <img src="Style/capacete.jpeg" alt="3">
+            </div>
+            <div>
+                <img src="Style/sapato.jpeg" alt="4">
+            </div>
+            <div>
+                <img src="Style/botas.jpeg" alt="5">
+            </div>
+            <div>
+                <img src="Style/faceshield.jpeg" alt="6">
+            </div>
+            <div>
+                <img src="Style/cinto.jpeg" alt="7">
+            </div>
+            <div>
+                <img src="Style/protetorauditivo.jpeg" alt="8">
+            </div>
+            <div>
+                <img src="Style/luvajardinagem.jpeg" alt="9">
+            </div>
+            <div>
+                <img src="Style/oculos.jpeg" alt="10">
+            </div>
+            <div>
+                <img src="Style/chapeujardinagem.jpeg" alt="11">
+            </div>
+            <div>
+                <img src="Style/faceshield.jpeg" alt="12" >
+            </div>
+        </div>
+
+
+
+    </script>
+
+
+    <!-- Funcionários  -->
+    <script type="text/html" id="template2">
+        <div class="container">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                    <th>Nome</th>
+                    <th>Contato</th>
+                    <th>CGU</th>
+                    <th>Mensagem</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Fulano</td>
+                        <td>519999999</td>
+                        <td>123456789</td>
+                        <td><input type="button" value="Enviar Alerta"></td>
+                    </tr>
+                    <tr>
+                        <td>Fulano</td>
+                        <td>518888888</td>
+                        <td>456789123</td>
+                        <td><input type="button" value="Enviar Alerta"></td>
+                    </tr>
+                    <tr>
+                        <td>Fulano</td>
+                        <td>5177777777</td>
+                        <td>159789456</td>
+                        <td><input type="button" value="Enviar Alerta"></td>
+                    </tr>
+                    <tr>
+                        <td>Fulanoz</td>
+                        <td>5145678945</td>
+                        <td>195454263</td>
+                        <td><input type="button" value="Enviar Alerta"></td>
+                    </tr>
+                    <tr>
+                        <td>Fulano</td>
+                        <td>5178945689</td>
+                        <td>315985642</td>
+                        <td><input type="button" value="Enviar Alerta"></td>
+                    </tr>
+                    <tr>
+                        <td>Fulano</td>
+                        <td>5178965412</td>
+                        <td>123159756</td>
+                        <td><input type="button" value="Enviar Alerta"></td>
+                    </tr>
+                    <tr>
+                        <td>Fulano</td>
+                        <td>5187889654</td>
+                        <td>154789565</td>
+                        <td><input type="button" value="Enviar Alerta"></td>
+                    </tr>
+                    <tr>
+                        <td>Fulano</td>
+                        <td>5195687463</td>
+                        <td>326568975</td>
+                        <td><input type="button" value="Enviar Alerta"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </script>
+
+
+
+    <!-- Footer -->
+    <footer" id="bottom">
+        <p>FOOTER</p>
+    </footer>
+
+    <script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
