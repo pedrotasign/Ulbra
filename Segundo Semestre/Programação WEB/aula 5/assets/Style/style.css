@@ -1,0 +1,32 @@
+header {
+    background: linear-gradient(to left, #d4d4d4, #c9d4eb);
+    height: 100px;
+    text-align: center;
+    border: 1px solid rgb(32, 157, 206);
+}
+
+nav button {
+    width: 150px;
+    margin-top: 5px;
+    background: linear-gradient(to right, #d4d4d4, #c9d4eb);
+}
+
+
+footer {
+    background: linear-gradient(to right, #d4d4d4, #c9d4eb);
+    text-align: center;
+    bottom: 0;
+    position: fixed;
+    width: 85%;
+    border: 1px solid rgb(32, 157, 206) ;
+}
+
+.flexBox {
+    display: flex;
+    justify-content: space-around;
+    text-align: justify;
+}
+
+p{
+    margin: 10px 100px 10px 10px;
+}
