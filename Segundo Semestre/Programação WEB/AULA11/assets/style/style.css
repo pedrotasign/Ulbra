@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+  
+.topnav {
+    overflow: hidden;
+    background-color: rgb(85, 85, 85);
+}
+  
+.topnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+  
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+
+.topnav a:hover{
+    background-color: #ddd;
+    color: white;
+}
+  
+.topnav-centered a {
+    float: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+  
+.topnav-right {
+    float: right;
+}
+  
+  /* Responsive navigation menu (for mobile devices) */
+@media screen and (max-width: 600px) {
+    .topnav a, .topnav-right {
+      float: none;
+      display: block;
+    }
+    
+    .topnav-centered a {
+      position: relative;
+      top: 0;
+      left: 0;
+      transform: none;
+    }
+}
+
+/* Formulário */
+.formConfig{
+    margin-left: 20%;
+    width: 60%;
+    float: center;
+}
+
+
+article{
+    margin: 5%;
+    border: 1px solid black;
+}
+
+.homeparada{
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+    margin-top: -345px;
+    position: absolute !important;
+    background-color: rgb(85, 85, 85);;
+    text-align: center;
+    vertical-align: auto;
+    padding-top: 38px;
+    color: white;
+}
+
+body div a:hover{
+    text-decoration: none;
+    background-color: rgb(212, 211, 211);
+    color: black;
+    font-size: 18px !important;
+    
+}
+
+
+
+
