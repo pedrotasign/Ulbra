@@ -1,0 +1,222 @@
+{
+	"info": {
+		"_postman_id": "a0dc2ec2-eba8-4e0f-8c96-5f6e18998773",
+		"name": "PW_AP2_APIrest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "List All Contacts",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJsb2NhbGhvc3QiLCJuYW1lIjoiQWRtaW5pc3RyYWRvciIsInVzZXIiOiJhZG0iLCJhZG1pbiI6IjEifQ.svD-VSvlCXzjxcJoR3yJ2MMiPZzFBUwatRJYrjZBTbg",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/pw/AP2/index.php/contacts/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"pw",
+						"AP2",
+						"index.php",
+						"contacts",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List Contact",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJsb2NhbGhvc3QiLCJuYW1lIjoiQWRtaW5pc3RyYWRvciIsInVzZXIiOiJhZG0iLCJhZG1pbiI6IjEifQ.svD-VSvlCXzjxcJoR3yJ2MMiPZzFBUwatRJYrjZBTbg",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/pw/AP2/index.php/contacts/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"pw",
+						"AP2",
+						"index.php",
+						"contacts",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Insert Contact",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJsb2NhbGhvc3QiLCJuYW1lIjoiQWRtaW5pc3RyYWRvciIsInVzZXIiOiJhZG0iLCJhZG1pbiI6IjEifQ.svD-VSvlCXzjxcJoR3yJ2MMiPZzFBUwatRJYrjZBTbg",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\" : \"Nome do Cliente P\",\r\n    \"email\" : \"email@provedor.com\",\r\n    \"message\" : \"Mensagem\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/pw/AP2/index.php/contacts/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"pw",
+						"AP2",
+						"index.php",
+						"contacts",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Clients",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJsb2NhbGhvc3QiLCJuYW1lIjoiQWRtaW5pc3RyYWRvciIsInVzZXIiOiJhZG0iLCJhZG1pbiI6IjEifQ.svD-VSvlCXzjxcJoR3yJ2MMiPZzFBUwatRJYrjZBTbg",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\" : \"Nome do Cliente G\",\r\n    \"email\" : \"email@provedor.com\",\r\n    \"message\" : \"Mensagem 2\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/pw/AP2/index.php/contacts/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"pw",
+						"AP2",
+						"index.php",
+						"contacts",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Clients",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJsb2NhbGhvc3QiLCJuYW1lIjoiQWRtaW5pc3RyYWRvciIsInVzZXIiOiJhZG0iLCJhZG1pbiI6IjEifQ.svD-VSvlCXzjxcJoR3yJ2MMiPZzFBUwatRJYrjZBTbg",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/pw/AP2/index.php/contacts/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"pw",
+						"AP2",
+						"index.php",
+						"contacts",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Users Login",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"user\" : \"adm\",\r\n    \"password\" : \"adm\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/pw/AP2/index.php/users/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"pw",
+						"AP2",
+						"index.php",
+						"users",
+						"login"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
